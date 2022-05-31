@@ -1,6 +1,6 @@
 body {
-    padding-left: 20px;
-    font-family: Roboto, "Times New Roman", serif;
+    padding-left: 15em;
+    font-family: Roboto, Times, serif;
     font-size: 20px;
     color: black;
     background-color: lightblue }
@@ -25,7 +25,7 @@ ul.navigator li {
     border-bottom: 0.1em solid black
 }
 ul.navigator a {
-    text-decoration: none }
+    text-decoration: palegreen }
 a:link {
     color: blue }
 a:visited {
