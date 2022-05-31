@@ -1,6 +1,6 @@
 body {
     padding-left: 11em;
-    font-family: Georgia, "Times New Roman",
+    font-family: Roboto, "Times New Roman",
     Times, serif;
     color: black;
     background-color: lightblue }
@@ -8,7 +8,7 @@ ul.navigator {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    position: absolute;
+    position: fixed;
     top: 2em;
     left: 1em;
     width: 10em }
@@ -16,10 +16,14 @@ h1 {
     font-family: Helvetica, Geneva, Arial,
     SunSans-Regular, sans-serif }
 ul.navigator li {
-    background: lightgoldenrodyellow;
+    background: lightcyan;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
+    border-right: 0.1em solid black;
+    border-left: 0.5em solid black;
+    border-top: 0.1em solid black;
+    border-bottom: 0.1em solid black
+}
 ul.navigator a {
     text-decoration: none }
 a:link {
